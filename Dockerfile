@@ -26,4 +26,4 @@ WORKDIR /app-example
 # Copy binaries.
 COPY --from=builder /app-example/example_runnable/* ./
 
-ENTRYPOINT ["/bin/sh", "./create_logs.sh"]
+ENTRYPOINT ["/bin/sh", "./hello_world.sh"]
