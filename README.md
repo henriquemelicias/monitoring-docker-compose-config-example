@@ -16,7 +16,7 @@ The app is a simple container that prints "Hello world". This container would be
 ```
 docker plugin install grafana/loki-docker-driver:latest --alias loki --grant-all-permissions
 sudo cp ./monitoring/loki/daemon.json /etc/docker/daemon.json
-sudo systemctl restart docke
+sudo systemctl restart docker
 ```
 
 ### Build and start containers:
